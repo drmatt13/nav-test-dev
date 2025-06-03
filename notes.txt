@@ -30,5 +30,20 @@ There is a need for a layout wrapper component for the Map component and pontial
 
 -- You should use 100svh (Small Viewport Height) instead of 100vh for a map application on mobile to avoid layout issues caused by mobile browser UI (like the address bar) shrinking the visible area.
 
+--------------------------------------------
+
+Questions:
+
+Are there any RBAC's for the Boston Liquor License Tracker Repo ~~ I've yet to contribute
+
+
+applicants_data.json, will it be hardcoded or dynamically fetched? if hardcoded, how will it be updated?
+
+
+are there any mockup designs or established features regarding how the "maps" and "license database" pages should function?
+
+
+
+
 
 
