@@ -1,0 +1,34 @@
+/* Routing */   ->   "tan-stack"
+
+/src/routes/__root.tsx
+
+^ Header, Outlet, Footer
+
+@tanstack/router-plugin recursively scans routes/ for createFileRoute() and aggregates to generate routeTree.gen.ts
+
+"#"  // highlight navigation issues
+
+--------------------------------------------
+
+/* Language */   ->   "react-intl"
+
+/src/data/locales/*.json // language json objects, contains key value pairs for text
+
+import { FormattedMessage } from "react-intl";
+
+^ import respective component
+
+<FormattedMessage id="key" />
+
+IDEA, perhaps a GitHub actions "test case", or "tool" for key values across "locales.*.json" files 
+
+--------------------------------------------
+
+There is a need for a layout wrapper component for the Map component and pontially the Hero component. 
+
+/map-test/maplibre
+
+-- You should use 100svh (Small Viewport Height) instead of 100vh for a map application on mobile to avoid layout issues caused by mobile browser UI (like the address bar) shrinking the visible area.
+
+
+
